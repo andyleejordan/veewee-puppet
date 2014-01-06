@@ -1,7 +1,7 @@
 Veewee::Session.declare({
-  :cpu_count => '1',
-  :memory_size=> '512',
-  :disk_size => '10140',
+  :cpu_count => '2',
+  :memory_size=> '1024',
+  :disk_size => '8192',
   :disk_format => 'VDI',
   :hostiocache => 'off',
   :os_type_id => 'Ubuntu_64',
@@ -34,10 +34,7 @@ Veewee::Session.declare({
     "base.sh",
     "vagrant.sh",
     "virtualbox.sh",
-    "vmfusion.sh",
-    "ruby.sh",
     "puppet.sh",
-    "chef.sh",
     "cleanup.sh",
     "zerodisk.sh"
   ],

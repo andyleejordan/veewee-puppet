@@ -4,4 +4,4 @@ dpkg -i puppetlabs-release-precise.deb
 apt-get update
 
 # Install puppet/facter
-apt-get install -y puppet facter
+apt-get install -y puppet-common

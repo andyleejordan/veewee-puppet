@@ -5,7 +5,7 @@ apt-get -y update
 apt-get -y upgrade
 apt-get -y install gcc build-essential linux-headers-$(uname -r)
 apt-get -y install zlib1g-dev libssl-dev libreadline-gplv2-dev libyaml-dev
-apt-get -y install vim curl
+apt-get -y install bsd-mailx git curl mg wget
 apt-get clean
 
 # Set up sudo
@@ -15,6 +15,3 @@ EOP
 ) > /tmp/vagrant
 chmod 0440 /tmp/vagrant
 mv /tmp/vagrant /etc/sudoers.d/
-
-# Install NFS client
-apt-get -y install nfs-common
