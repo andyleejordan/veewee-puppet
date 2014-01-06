@@ -5,7 +5,7 @@ apt-get -y update
 apt-get -y upgrade
 apt-get -y install gcc build-essential linux-headers-$(uname -r)
 apt-get -y install zlib1g-dev libssl-dev libreadline-gplv2-dev libyaml-dev
-apt-get -y install bsd-mailx git curl mg wget
+apt-get -y install git curl mg wget
 apt-get clean
 
 # Set up sudo
