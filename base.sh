@@ -5,7 +5,7 @@ apt-get -y update
 apt-get -y upgrade
 apt-get -y install gcc build-essential linux-headers-$(uname -r)
 apt-get -y install zlib1g-dev libssl-dev libreadline-gplv2-dev libyaml-dev
-apt-get -y install curl git mailutils mg wget
+apt-get -y install aptitude curl git gnupg2 mailutils mg wget unzip
 apt-get clean
 
 # Set up sudo
