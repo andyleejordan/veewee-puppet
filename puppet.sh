@@ -4,4 +4,5 @@ dpkg -i puppetlabs-release-precise.deb
 apt-get update
 
 # Install puppet/facter
-apt-get install -y puppet-common
+apt-get install -y puppet-common rubygems
+gem install deep_merge
