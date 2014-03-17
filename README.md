@@ -16,3 +16,9 @@ This is a definition for building with
 validation tests because of the (purposeful) lack of Ruby. I made it
 because all the publically available Vagrant boxes lacked Puppet
 3.4.3, which I need for testing my Puppet manifests.
+
+## Download
+
+This box is available on
+[Vagrant Cloud](https://vagrantcloud.com/andschwa/ubuntu-precise-latest-puppet). The
+download link is self-hosted, so please cache.
